@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Askon"
 include(":app")
+include(":domain")
+include(":data")
  

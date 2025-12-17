@@ -4,12 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:gravity="center"
     android:background="#F5F5F5">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Askon App Demo"
+        android:text="Askon - Expert Consultation Platform"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#333333"
@@ -17,37 +18,22 @@
         android:paddingBottom="16dp" />
 
     <TextView
+        android:id="@+id/tvResults"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test Application Functions"
+        android:text="Welcome to Askon!"
         android:textSize="16sp"
         android:textColor="#666666"
         android:gravity="center"
         android:paddingBottom="24dp" />
 
     <Button
-        android:id="@+id/btnTestLogin"
+        android:id="@+id/btnGoToExperts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test Login"
-        android:layout_marginBottom="8dp"
+        android:text="Find Experts"
         android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btnTestML"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Test ML Recognition"
-        android:layout_marginBottom="8dp"
-        android:textAllCaps="false" />
-
-    <Button
-        android:id="@+id/btnTestExperts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Test Get Experts"
-        android:layout_marginBottom="8dp"
-        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btnTestBooking"

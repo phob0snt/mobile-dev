@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Bookings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Content Area -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Empty State -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/emptyStateIcon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@android:drawable/ic_menu_today"
+                android:alpha="0.3"
+                android:contentDescription="@string/no_bookings"/>
+
+            <TextView
+                android:id="@+id/emptyStateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No bookings yet"
+                android:textSize="18sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/findExpertsLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Experts"
+                android:textSize="16sp"
+                android:textColor="@color/primary"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <!-- Bookings List (Initially Hidden) -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookingsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:clipToPadding="false"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+    </FrameLayout>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:menu="@menu/bottom_navigation_menu"/>
+
+</LinearLayout>

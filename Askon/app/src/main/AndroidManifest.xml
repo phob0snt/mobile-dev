@@ -22,6 +22,34 @@
             </intent-filter>
         </activity>
         
+        <activity
+            android:name=".presentation.LoginActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.RegistrationActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.ExpertListActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.ExpertProfileActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.BookingsActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.ChatActivity"
+            android:exported="false" />
+        
+        <activity
+            android:name=".presentation.ProfileActivity"
+            android:exported="false" />
+        
     </application>
 
 </manifest>

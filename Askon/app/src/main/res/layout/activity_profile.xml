@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="16dp"/>
+
+    <!-- Profile Content (To be implemented) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_camera"
+                android:background="@color/avatar_background"/>
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user@example.com"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="4dp"/>
+            
+            <TextView
+                android:id="@+id/userPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not specified"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="4dp"/>
+            
+            <com.google.android.material.chip.Chip
+                android:id="@+id/userRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client"
+                android:layout_marginTop="16dp"
+                app:chipBackgroundColor="@color/primary"
+                android:textColor="@android:color/white"/>
+            
+            <!-- Profile Info Cards -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@android:color/darker_gray">
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Account Information"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+                    
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"/>
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Member since 2025"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            
+            <!-- Logout Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="32dp"
+                android:text="Logout"
+                android:textSize="16sp"
+                app:cornerRadius="12dp"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="2dp"
+                android:textColor="@color/primary"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:menu="@menu/bottom_navigation_menu"/>
+
+</LinearLayout>
