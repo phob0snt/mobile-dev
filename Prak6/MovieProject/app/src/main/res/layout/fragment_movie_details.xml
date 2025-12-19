@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/movieTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название фильма"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/movieYearTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Год: 2024"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" • "
+                android:textSize="16sp"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:id="@+id/movieGenreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Жанр: Драма"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/movieRatingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Рейтинг: 9.0/10"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFD700"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Описание"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/movieDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Описание фильма..."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

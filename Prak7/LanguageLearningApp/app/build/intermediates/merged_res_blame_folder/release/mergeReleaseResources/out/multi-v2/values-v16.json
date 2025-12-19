@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.mirea.yudaev.languagelearningapp-mergeReleaseResources-42:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\guhmi\\.gradle\\caches\\8.10.2\\transforms\\0988b279c215ebf10a271774db5a9d23\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\guhmi\\.gradle\\caches\\8.10.2\\transforms\\060510e58d8dab8a32cb7a2915899adf\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

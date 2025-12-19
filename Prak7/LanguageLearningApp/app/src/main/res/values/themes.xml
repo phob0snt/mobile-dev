@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.LanguageLearning" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/language_primary</item>
+        <item name="colorPrimaryDark">@color/language_primary_dark</item>
+        <item name="colorAccent">@color/language_accent</item>
+        <item name="android:statusBarColor">@color/language_primary_dark</item>
+    </style>
+
+    <style name="Theme.LanguageLearning" parent="Base.Theme.LanguageLearning" />
+    
+    <!-- Theme for DrawerActivity -->
+    <style name="Theme.LanguageLearning.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="Theme.LanguageLearning.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.LanguageLearning.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

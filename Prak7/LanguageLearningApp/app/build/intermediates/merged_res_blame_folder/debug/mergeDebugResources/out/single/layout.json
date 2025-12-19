@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_dictionary.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_dictionary.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_progress.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_progress.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_lessons.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_lessons.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_profile.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/nav_header_drawer.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/content_drawer.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/content_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_achievements.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_achievements.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/app_bar_drawer.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/app_bar_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/fragment_settings.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-mergeDebugResources-43:/layout/activity_drawer.xml",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/activity_drawer.xml"
+    }
+]

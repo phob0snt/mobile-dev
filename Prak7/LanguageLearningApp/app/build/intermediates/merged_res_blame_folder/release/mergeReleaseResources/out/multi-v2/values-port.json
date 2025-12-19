@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.mirea.yudaev.languagelearningapp-mergeReleaseResources-42:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\guhmi\\.gradle\\caches\\8.10.2\\transforms\\060510e58d8dab8a32cb7a2915899adf\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

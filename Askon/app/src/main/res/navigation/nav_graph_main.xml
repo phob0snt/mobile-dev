@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@+id/expertListFragment">
+
+    <!-- Список экспертов -->
+    <fragment
+        android:id="@+id/expertListFragment"
+        android:name="com.x2ketarol.askon.presentation.fragments.ExpertListFragment"
+        android:label="Experts"
+        tools:layout="@layout/fragment_expert_list">
+        
+        <action
+            android:id="@+id/action_expertList_to_expertDetails"
+            app:destination="@id/expertDetailsFragment" />
+    </fragment>
+
+    <!-- Детали эксперта -->
+    <fragment
+        android:id="@+id/expertDetailsFragment"
+        android:name="com.x2ketarol.askon.presentation.fragments.ExpertDetailsFragment"
+        android:label="Expert Details"
+        tools:layout="@layout/fragment_expert_details">
+        
+        <argument
+            android:name="expertId"
+            android:defaultValue="0"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Профиль пользователя -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.x2ketarol.askon.presentation.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

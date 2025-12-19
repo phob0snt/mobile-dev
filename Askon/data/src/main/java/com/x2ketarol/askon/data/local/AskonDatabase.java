@@ -13,7 +13,7 @@ import com.x2ketarol.askon.data.local.entity.BookingEntity;
 import com.x2ketarol.askon.data.local.entity.ExpertEntity;
 import com.x2ketarol.askon.data.local.entity.MessageEntity;
 
-@Database(entities = {ExpertEntity.class, BookingEntity.class, MessageEntity.class}, version = 1)
+@Database(entities = {ExpertEntity.class, BookingEntity.class, MessageEntity.class}, version = 2)
 public abstract class AskonDatabase extends RoomDatabase {
     
     private static AskonDatabase instance;
@@ -29,6 +29,7 @@ public abstract class AskonDatabase extends RoomDatabase {
                 AskonDatabase.class,
                 "askon_database"
             ).allowMainThreadQueries()  // Для упрощения, в production использовать асинхронные запросы
+             .fallbackToDestructiveMigration()  // Пересоздать БД при изменении версии
              .build();
         }
         return instance;

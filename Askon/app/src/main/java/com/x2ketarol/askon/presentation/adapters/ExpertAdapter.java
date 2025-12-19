@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 
@@ -71,6 +73,19 @@ public class ExpertAdapter extends RecyclerView.Adapter<ExpertAdapter.ExpertView
             ratingText.setText(String.format("⭐ %.1f (%d)", expert.getRating(), expert.getReviewCount()));
             descriptionText.setText(expert.getSpecialization());
             priceText.setText(String.format("$%d/hr", expert.getHourlyRate()));
+
+            // Загрузка аватара эксперта с помощью Glide
+            if (expert.getPhotoUrl() != null && !expert.getPhotoUrl().isEmpty()) {
+                Glide.with(itemView.getContext())
+                        .load(expert.getPhotoUrl())
+                        .circleCrop() // круглое изображение для аватара
+                        .placeholder(R.drawable.ic_launcher_background) // плейсхолдер
+                        .error(R.drawable.ic_launcher_background) // изображение при ошибке
+                        .diskCacheStrategy(DiskCacheStrategy.ALL) // кеширование
+                        .into(avatarImage);
+            } else {
+                avatarImage.setImageResource(R.drawable.ic_launcher_background);
+            }
 
             // Add skills as chips
             skillsChipGroup.removeAllViews();

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "123456789",
-    "project_id": "askon-demo",
-    "storage_bucket": "askon-demo.appspot.com"
+    "project_number": "987178583476",
+    "project_id": "mobilepractice-e0960",
+    "storage_bucket": "mobilepractice-e0960.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789:android:abcdef0123456789",
+        "mobilesdk_app_id": "1:987178583476:android:53bd7ae26bcc353edf9ee1",
         "android_client_info": {
           "package_name": "com.x2ketarol.askon"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDemoKeyForAskonApp"
+          "current_key": "AIzaSyDrqlAD_9CTLGHhVxDa6Wy3XqFXrw7kGHQ"
         }
       ],
       "services": {

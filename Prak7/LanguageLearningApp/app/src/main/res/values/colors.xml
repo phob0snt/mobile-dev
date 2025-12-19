@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors - Language Learning Theme -->
+    <color name="language_primary">#4CAF50</color>
+    <color name="language_primary_dark">#388E3C</color>
+    <color name="language_secondary">#FF9800</color>
+    <color name="language_secondary_dark">#F57C00</color>
+    <color name="language_accent">#2196F3</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_card">#FAFAFA</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="error_red">#F44336</color>
+    
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

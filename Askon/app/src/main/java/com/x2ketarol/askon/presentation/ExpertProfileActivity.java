@@ -12,6 +12,7 @@ import com.google.android.material.chip.ChipGroup;
 
 import com.x2ketarol.askon.R;
 import com.x2ketarol.askon.data.local.ProfilePreferences;
+import com.x2ketarol.askon.data.remote.CurrencyApiClient;
 import com.x2ketarol.askon.data.repository.BookingRepositoryImpl;
 import com.x2ketarol.askon.data.repository.UsersRepositoryImpl;
 import com.x2ketarol.askon.domain.model.Booking;
@@ -99,7 +100,10 @@ public class ExpertProfileActivity extends AppCompatActivity {
         expertName.setText(expertProfile.getName());
         expertRating.setText(String.format("⭐ %.1f (%d)", 
             expertProfile.getRating(), expertProfile.getReviewCount()));
-        expertPrice.setText(String.format("$%d/hr", expertProfile.getHourlyRate()));
+        
+        // Отображаем цену с конвертацией валют
+        displayPriceWithCurrency(expertProfile.getHourlyRate());
+        
         expertDescription.setText(expertProfile.getBio());
 
         // Add skills as chips
@@ -153,5 +157,33 @@ public class ExpertProfileActivity extends AppCompatActivity {
             isBookingInProgress = false;
             bookNowButton.setEnabled(true);
         }
+    }
+    
+    /**
+     * Отображает цену с автоматической конвертацией в рубли
+     */
+    private void displayPriceWithCurrency(int usdPrice) {
+        // Показываем USD цену сразу
+        expertPrice.setText(String.format("$%d/hr", usdPrice));
+        
+        // Запрашиваем курс и обновляем
+        CurrencyApiClient.getInstance().convertUsdToRub(usdPrice, 
+            new CurrencyApiClient.ConversionCallback() {
+                @Override
+                public void onSuccess(double usd, double rub, double rate) {
+                    runOnUiThread(() -> {
+                        expertPrice.setText(String.format("$%d/hr (≈%.0f ₽)", 
+                            usdPrice, rub));
+                    });
+                }
+                
+                @Override
+                public void onError(String error) {
+                    // Оставляем только USD если не удалось получить курс
+                    runOnUiThread(() -> {
+                        expertPrice.setText(String.format("$%d/hr", usdPrice));
+                    });
+                }
+            });
     }
 }

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_settings.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_settings.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_progress.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_progress.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_content_drawer.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/content_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_achievements.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_achievements.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_activity_drawer.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/activity_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_activity_main.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_dictionary.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_dictionary.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/navigation_mobile_navigation.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_app_bar_drawer.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/app_bar_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_lessons.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_lessons.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/menu_drawer_menu.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_progress.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_progress.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/menu_main_toolbar_menu.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/menu/main_toolbar_menu.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_dictionary.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_dictionary.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_menu.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/navigation_drawer_navigation.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/navigation/drawer_navigation.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_profile.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_achievements.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_achievements.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_nav_header_drawer.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/drawable_ic_profile.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/layout_fragment_lessons.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/layout/fragment_lessons.xml"
+    },
+    {
+        "merged": "ru.mirea.yudaev.languagelearningapp-debug-44:/menu_bottom_nav_menu.xml.flat",
+        "source": "ru.mirea.yudaev.languagelearningapp-main-46:/menu/bottom_nav_menu.xml"
+    }
+]

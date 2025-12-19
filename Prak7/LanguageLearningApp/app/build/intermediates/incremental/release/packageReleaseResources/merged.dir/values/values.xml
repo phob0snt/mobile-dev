@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_card">#FAFAFA</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="error_red">#F44336</color>
+    <color name="language_accent">#2196F3</color>
+    <color name="language_primary">#4CAF50</color>
+    <color name="language_primary_dark">#388E3C</color>
+    <color name="language_secondary">#FF9800</color>
+    <color name="language_secondary_dark">#F57C00</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="achievement_100_words">100 Words Learned</string>
+    <string name="achievement_first_lesson">First Lesson Completed</string>
+    <string name="achievement_week_streak">7-Day Streak</string>
+    <string name="achievements_description">Unlock achievements by completing challenges</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Language Learning</string>
+    <string name="dictionary_count">Total words: 1,247</string>
+    <string name="lesson_advanced">Advanced Level</string>
+    <string name="lesson_beginner">Beginner Level</string>
+    <string name="lesson_conversation">Conversation Practice</string>
+    <string name="lesson_grammar">Grammar Basics</string>
+    <string name="lesson_intermediate">Intermediate Level</string>
+    <string name="lesson_vocabulary">Essential Vocabulary</string>
+    <string name="lessons_description">Choose a lesson to continue your learning journey</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_dictionary">Dictionary</string>
+    <string name="nav_lessons">Lessons</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_settings">Settings</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="profile_description">Keep learning every day to improve your stats!</string>
+    <string name="profile_stats">Learning Statistics</string>
+    <string name="progress_description">Track your progress across different language skills</string>
+    <string name="progress_grammar">Grammar</string>
+    <string name="progress_listening">Listening</string>
+    <string name="progress_speaking">Speaking</string>
+    <string name="progress_vocabulary">Vocabulary</string>
+    <string name="search_hint">Search word...</string>
+    <string name="settings_auto_play">Auto-play Audio</string>
+    <string name="settings_description">Customize your learning experience</string>
+    <string name="settings_learning">Learning Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_offline">Offline Mode</string>
+    <string name="settings_push">Push Notifications</string>
+    <string name="settings_reminders">Daily Reminders</string>
+    <string name="settings_sound">Sound Effects</string>
+    <string name="stat_lessons">Lessons</string>
+    <string name="stat_streak">Day Streak</string>
+    <string name="stat_words">Words</string>
+    <string name="student_email">student@mirea.ru</string>
+    <string name="student_group">БСБО-09-22</string>
+    <string name="student_name">Юдаев И.А.</string>
+    <string name="title_achievements">Achievements</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_lessons">Language Lessons</string>
+    <string name="title_profile">My Profile</string>
+    <string name="title_progress">Learning Progress</string>
+    <string name="title_settings">Settings</string>
+    <string name="word_goodbye">Goodbye - До свидания</string>
+    <string name="word_hello">Hello - Привет</string>
+    <string name="word_please">Please - Пожалуйста</string>
+    <string name="word_thank_you">Thank you - Спасибо</string>
+    <style name="Base.Theme.LanguageLearning" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/language_primary</item>
+        <item name="colorPrimaryDark">@color/language_primary_dark</item>
+        <item name="colorAccent">@color/language_accent</item>
+        <item name="android:statusBarColor">@color/language_primary_dark</item>
+    </style>
+    <style name="Theme.LanguageLearning" parent="Base.Theme.LanguageLearning"/>
+    <style name="Theme.LanguageLearning.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.LanguageLearning.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LanguageLearning.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
