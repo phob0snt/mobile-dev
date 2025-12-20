@@ -1,22 +1,29 @@
 {
   "project_info": {
-    "project_number": "123456789",
-    "project_id": "movieproject-demo",
-    "storage_bucket": "movieproject-demo.appspot.com"
+    "project_number": "987178583476",
+    "project_id": "mobilepractice-e0960",
+    "storage_bucket": "mobilepractice-e0960.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789:android:abcdef",
+        "mobilesdk_app_id": "1:987178583476:android:dc55affdbfb840d7df9ee1",
         "android_client_info": {
           "package_name": "ru.mirea.yudaev.Lesson9"
         }
       },
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "YOUR_API_KEY_HERE"
+          "current_key": "AIzaSyDrqlAD_9CTLGHhVxDa6Wy3XqFXrw7kGHQ"
         }
-      ]
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
-  ]
+  ],
+  "configuration_version": "1"
 }
