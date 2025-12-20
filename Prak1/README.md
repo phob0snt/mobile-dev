@@ -18,11 +18,11 @@
 
 Use-case диаграмма приложения:
 
-<img width="806" height="773" alt="image" src="https://github.com/user-attachments/assets/1ff32744-7830-4252-a122-4daadc8df15d" />
+<img width="1647" height="948" alt="image" src="https://github.com/user-attachments/assets/2ee97071-f55c-4a99-8e24-b7227e155ef6" />
 
 
 ## Диаграмма слоёв приложения:
-<img width="1052" height="869" alt="image_2025-10-03_22-10-03" src="https://github.com/user-attachments/assets/c28c60b3-c20c-4fe3-a1ba-36da30b5cb04" />
+<img width="3488" height="2438" alt="Пустая схема" src="https://github.com/user-attachments/assets/57e02f5b-09df-404e-9e64-f4dda95aecd3" />
 
 
 ---
