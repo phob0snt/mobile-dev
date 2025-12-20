@@ -169,6 +169,9 @@ public class ViewModelFactory implements ViewModelProvider.Factory {
 - Переиспользуемость кода
 
 ---
+<img width="617" height="965" alt="image" src="https://github.com/user-attachments/assets/30093ce2-f978-4654-a296-038e862f110e" />
+
+<img width="918" height="557" alt="image" src="https://github.com/user-attachments/assets/d28aee90-c632-4767-bcb6-f51bcbdb8a59" />
 
 ## Ключевые изменения и улучшения
 
