@@ -22,6 +22,9 @@
 ---
 
 ## 1. Реализация ScrollViewApp
+<img width="665" height="982" alt="image" src="https://github.com/user-attachments/assets/67a31ba6-1b4c-48d5-81c6-ffd150af38f4" />
+<img width="652" height="983" alt="image" src="https://github.com/user-attachments/assets/b0b79983-1bd2-43a8-a46b-438bc4ffcb5b" />
+
 
 ### Описание
 Простое приложение для демонстрации программного управления прокруткой с помощью `ScrollView`.
@@ -79,6 +82,8 @@ public class ScrollViewDemoActivity extends AppCompatActivity {
 
 ### Описание
 Приложение с использованием `ListView` для отображения списка фильмов с навигацией через фрагменты.
+
+<img width="569" height="991" alt="image" src="https://github.com/user-attachments/assets/a699c5b0-2f6d-457f-bf3a-d47c343270ba" />
 
 ### Ключевые компоненты
 
@@ -153,6 +158,10 @@ public class MovieListFragment extends Fragment {
 ---
 
 ## 3. Реализация RecyclerViewApp
+<img width="577" height="992" alt="image" src="https://github.com/user-attachments/assets/c296f783-b9af-4422-a9ba-b3caaefcf1aa" />
+
+<img width="642" height="982" alt="image" src="https://github.com/user-attachments/assets/a7d8119c-1e81-4ee7-9048-2a6c5ad4fe8c" />
+
 
 ### Описание
 Современное приложение с использованием `RecyclerView`, `ViewModel` и `LiveData` по паттерну MVVM.
